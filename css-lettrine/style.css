@@ -1,0 +1,15 @@
+div {
+    width: 200px;
+    border: 2px solid black;
+    padding: 20px 15px;
+}
+p:first-of-type:first-letter {
+ color: red;
+ font-size:2.5em;
+ font-weight: bold;
+}
+p:last-of-type:first-line {
+color: blue;
+font-weight: bold;
+text-transform: uppercase;
+}
